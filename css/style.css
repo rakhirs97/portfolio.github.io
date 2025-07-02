@@ -1,1 +1,28 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+.navbar-nav .nav-link.custom-nav {
+  color: black;
+  position: relative;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link.custom-nav:hover::after {
+  content: '';
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  width: 50%;
+  height: 6pt;
+  background-color: black;
+  border-radius: 3pt;
+}
+
+#home {
+  background-color: black;
+  text-align: center;
+}
